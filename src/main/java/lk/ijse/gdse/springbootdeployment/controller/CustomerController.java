@@ -18,7 +18,7 @@ public class CustomerController {
         customerService.saveCustomer(customer);
     }
 
-    @GetMapping("/getAll")
+    @GetMapping("/getAlls")
     public List<Customer> getAllCustomers() {
        return customerService.getCustomer();
     }
